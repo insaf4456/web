@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: blue;
+}
+
+.loginpage {
+    height: 550px;
+    width: 450px;
+    margin: auto;
+    padding: 40px 20px;
+    background-color: red;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.username,
+.password {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.btngroup {
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.btnlogin {
+    height: 25px;
+    width: 120px;
+    margin-right: 10px;
+    border: 1px solid black;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.btnclear {
+    height: 25px;
+    width: 120px;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
